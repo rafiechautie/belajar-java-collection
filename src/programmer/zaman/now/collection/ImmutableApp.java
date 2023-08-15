@@ -16,6 +16,6 @@ public class ImmutableApp {
     List<String> immutable = Collections.unmodifiableList(mutable);
 
     List<String> elements = List.of("Eko", "Kurniawan", "Khannedy");
-
+    //elements.add("rafie"); // error karena list Element immutabel
   }
 }

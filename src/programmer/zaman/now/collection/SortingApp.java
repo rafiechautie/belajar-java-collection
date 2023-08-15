@@ -13,6 +13,7 @@ public class SortingApp {
 
     Collections.sort(list);
 
+    //jika ingin mengubah behaviour dari sorting
     Comparator<String> reverse = new Comparator<String>() {
       @Override
       public int compare(String o1, String o2) {

@@ -8,6 +8,9 @@ public class ListApp {
   public static void main(String[] args) {
 
     List<String> strings = new ArrayList<>();
+    //jika ingin menentukan kapasitas dari awal dari ArrayList, defaultnya 10
+    //sehingga saat memasukkan data kurang dari 100 akan cepet
+//    List<String> strings = new ArrayList<>(100);
     // List<String> strings = new LinkedList<>();
 
     strings.add("Eko");

@@ -20,6 +20,7 @@ public class SortedSetApp {
       System.out.println(person.getName());
     }
 
+    //contoh bikin immutable
     SortedSet<Person> sortedSet = Collections.unmodifiableSortedSet(people);
     // sortedSet.add(new Person("Kurniawan"));
 

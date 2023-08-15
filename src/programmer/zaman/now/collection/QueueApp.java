@@ -16,6 +16,8 @@ public class QueueApp {
     queue.add("Kurniawan");
     queue.add("Khannedy");
 
+    //mengambil data queue
+    //selema nextnya tidak sama dengan null maka ambil data queue dan maukkan ke variable next
     for (String next = queue.poll(); next != null; next = queue.poll()){
       System.out.println(next);
     }

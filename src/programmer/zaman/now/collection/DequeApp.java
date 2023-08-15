@@ -12,6 +12,7 @@ public class DequeApp {
     stack.offerLast("Kurniawan");
     stack.offerLast("Khannedy");
 
+    //ambil data yang paling belakang
     System.out.println(stack.pollLast());
     System.out.println(stack.pollLast());
     System.out.println(stack.pollLast());
@@ -21,6 +22,7 @@ public class DequeApp {
     queue.offerLast("Kurniawan");
     queue.offerLast("Khannedy");
 
+    //ambil data yang paling depan
     System.out.println(queue.pollFirst());
     System.out.println(queue.pollFirst());
     System.out.println(queue.pollFirst());

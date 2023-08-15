@@ -14,6 +14,7 @@ public class IterableApp {
     System.out.println("ITERATOR");
     Iterator<String> iterator = names.iterator();
 
+    //dulu ini yang dilakukan untuk mengakses seluruh data collection sebelum ada foreach
     while(iterator.hasNext()){
       String name = iterator.next();
       System.out.println(name);

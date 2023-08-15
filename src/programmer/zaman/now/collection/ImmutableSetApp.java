@@ -17,8 +17,8 @@ public class ImmutableSetApp {
 
     Set<String> set = Set.of("Eko", "Kurniawan");
 
-    // set.add("Eko"); error
-    // set.remove("Eko"); error
+    // set.add("Eko"); error karena mencoba memdofikasi data yang immutable
+    // set.remove("Eko"); error karena mencoba memdofikasi data yang immutable
 
   }
 }

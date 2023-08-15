@@ -12,13 +12,17 @@ public class NavigableMapApp {
     map.put("Eko", "Eko");
     map.put("Budi", "Budi");
     map.put("Joko", "Joko");
+    map.put("Rafie", "Rafie");
 
     for (var key : map.keySet()){
       System.out.println(key);
     }
 
+    System.out.println("======");
     System.out.println(map.lowerKey("Eko"));
     System.out.println(map.higherKey("Eko"));
+
+    System.out.println("=====");
 
     NavigableMap<String, String> mapDesc = map.descendingMap();
     for (var key : mapDesc.keySet()){
